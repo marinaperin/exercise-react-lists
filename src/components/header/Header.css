@@ -1,0 +1,46 @@
+header {
+  position: relative;
+}
+
+.post {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: gold;
+  height: 99.5%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.featured {
+  margin-top: 2rem;
+  color: gray;
+  padding: 1rem;
+  text-align: start;
+  font-weight: 300;
+  font-size: smaller;
+}
+
+.post-title {
+  text-align: start;
+  margin-inline: 1rem;
+  border-bottom: 2px solid black;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+.post-body {
+  padding-inline: 1rem;
+  margin-bottom: 1rem;
+  text-align: start;
+  color: gray;
+  font-weight: 300;
+  font-size: smaller;
+}
+.read-more {
+  width: 50%;
+  margin-left: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+}
+menu {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+  flex-grow: 1;
+}
+button {
+  font-size: inherit;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  font-size: smaller;
+}
