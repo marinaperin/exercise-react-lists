@@ -11,7 +11,7 @@ const Header = ({ src, alt, postTitle, postBody }) => {
         <p className="featured">FEATURED POSTS</p>
         <h1 className="post-title">{postTitle}</h1>
         <p className="post-body">{postBody}</p>
-        {postBody.length > 80 && (<button className="read-more">Read More</button>)}
+        {postBody.length > 50 && (<button className="read-more">Read More</button>)}
         <Buttons/>
       </section>
     </header>
